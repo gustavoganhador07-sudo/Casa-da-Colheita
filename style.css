@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #A5D6A7, #4CAF50);
+}
+
+/* ===== LOGIN ===== */
+
+.container {
+    background: white;
+    width: 350px;
+    padding: 35px;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.container h1 {
+    color: #2E7D32;
+    margin-bottom: 25px;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+select:focus, input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #66BB6A, #388E3C);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER */
+button:hover {
+    background: linear-gradient(135deg, #388E3C, #1B5E20);
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== PÁGINAS INTERNAS ===== */
+
+.page {
+    padding: 60px;
+    text-align: center;
+}
+
+.page h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #2E7D32;
+}
+
+.card p {
+    color: #555;
+}
