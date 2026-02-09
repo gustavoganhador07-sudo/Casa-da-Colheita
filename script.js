@@ -24,3 +24,8 @@ function verifica(){
     }
 
 }
+document.addEventListener("keydown", function(event) {
+    if(event.key ==="Enter"){
+        verifica();
+    }
+});

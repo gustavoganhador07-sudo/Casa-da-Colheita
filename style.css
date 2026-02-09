@@ -39,7 +39,7 @@ select:focus, input:focus {
     border-color: #4CAF50;
 }
 
-button {
+#btnEntrar {
     width: 100%;
     padding: 14px;
     background: linear-gradient(135deg, #66BB6A, #388E3C);
@@ -52,7 +52,7 @@ button {
 }
 
 /* HOVER */
-button:hover {
+#btnEntrar:hover {
     background: linear-gradient(135deg, #388E3C, #1B5E20);
     transform: scale(1.08);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -99,4 +99,21 @@ button:hover {
 
 .card p {
     color: #555;
+}
+
+ #verificaEstoque{
+    width: 60%;
+    padding: 14px;
+    background: linear-gradient(135deg, #66BB6A, #388E3C);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ #verificaEstoque:hover {
+    background: linear-gradient(135deg, #388E3C, #1B5E20);
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
